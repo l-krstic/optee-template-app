@@ -20,6 +20,6 @@ script from the mentioned repo, that generates optee template application, based
 
 
 # IMPORTANT
-**NEVER deploy an optee_os binary with [default](https://github.com/OP-TEE/optee_os/tree/master/keys) key 
+&middot; **NEVER deploy an optee_os binary with [default](https://github.com/OP-TEE/optee_os/tree/master/keys) key 
 in production. Instead, REPLACE key as soon as possible with a public key and keep the private part of 
 the key offline, preferably on an HSM.**
