@@ -17,9 +17,9 @@ script from the mentioned repo, that generates optee template application, based
 ## Host section changes
 
 1. **host/Makefile** — Change *BINARY* value(example: *custom_app*)
-2. **host/main.c**   — Change the name of the header file included(example *custom_app_ta.h*)
+2. **host/main.c**   — Change the name of the header file included(*custom_app_ta.h*)
 3. **host/main.c**   — Change the value of the *UUID* variable to *CUSTOM_APP_UUID*
-4. **host/main.c**   — In the *TEE_InvokeCommand()* function, change the macro responsible for differentiating callbacks from trusted zone to desired(for example *TA_HELLO_WORLD_CMD_INC_VALUE* &rarr; *CUSTOM_APP_CMD1*)
+4. **host/main.c**   — In the *TEE_InvokeCommand()* function, change the macro responsible for differentiating callbacks from trusted zone to desired(*TA_HELLO_WORLD_CMD_INC_VALUE* &rarr; *CUSTOM_APP_CMD1*)
 
 ## Trusted section changes
 
