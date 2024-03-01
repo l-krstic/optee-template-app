@@ -1,3 +1,11 @@
+# User defined
+my_example/host/optee_example_*
+my_example/ta/*.dmp
+my_example/ta/*.map
+my_example/ta/*.elf
+my_example/ta/dyn_list
+my_example/ta/*.lds
+
 # Prerequisites
 *.d
 
